@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint 01 G6 ONE - Encriptador de Texto</title>
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img class="logo" src="img/logo.svg" alt="Logo de Alura">
+    </header>
+    <main>
+        <section class="sector1">
+            <div class="cajaInput">
+                <textarea id="input" class="input" placeholder="Ingresa tu texto aquí"></textarea>
+            </div>
+            <div class="alerta">
+                <p><i class="fa fa-exclamation-circle"></i> solo letras minusculas y sin tildes.</p>
+            </div>
+            <div class="sectorBtn">
+                <input type="button" id="btnEncrip" class="btn" value="Encriptar">
+                <input type="button" id="btnDecrip" class="btn" value="Desencriptar">
+            </div>
+        </section>
+        <section class="sector2">
+            <div class="cajaOutput">
+                <textarea id="output" class="output" readonly></textarea>
+            </div>
+            <div class="outputPackage">
+                <div class="cajaNoText">
+                    <img src="img/figura.svg" alt="Figura Stock">
+                </div>
+                <div class="noText">
+                    <h3>Ningún mensaje fue encontrado</h3>
+                    <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+                </div>
+            </div>
+            <div class="sectorBtn">
+                <input type="button" id="btnCopiar" class="btn" value="Copiar">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul>
+            <li><p class="creditos">Coded by Omar Suazo and guided by Oracle + Alura Latam! ONE G6 2024</p></li>
+            <li><p class="creditos">|</p></li>
+            <li><a class="links" href="https://www.linkedin.com/in/osuazo/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a class="links" href="https://github.com/omarsuazo" target="_blank"><i class="fa fa-github"></i></a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
