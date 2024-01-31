@@ -1,6 +1,8 @@
 # Challenge ONE - Principiante en programación
 Sprint 01: Construcción de un encriptador de texto con .JS
 
+Ver. 1.1
+
 Enlace del proyecto:
 - https://omarsuazo.github.io/encriptador/
 
@@ -10,4 +12,4 @@ Lenguajes utilizados:
 - .JS
 
 Errores conocidos:
-- No responsivo ❌ (Vista solo desktop, trabajando en la siguiente versión)
+- Sin vista tablets y telefonos (en construcción 🚧)
