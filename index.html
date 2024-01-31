@@ -16,9 +16,9 @@
         <img class="logo" src="img/logo.svg" alt="Logo de Alura">
     </header>
     <main>
-        <section class="sector1">
+        <div class="sector1">
             <div class="cajaInput">
-                <textarea id="input" class="input" placeholder="Ingresa tu texto aquí"></textarea>
+                <textarea id="input" class="input" placeholder="Ingresa tu texto aquí" maxlength="200"></textarea>
             </div>
             <div class="alerta">
                 <p><i class="fa fa-exclamation-circle"></i> solo letras minusculas y sin tildes.</p>
@@ -27,10 +27,10 @@
                 <input type="button" id="btnEncrip" class="btn" value="Encriptar">
                 <input type="button" id="btnDecrip" class="btn" value="Desencriptar">
             </div>
-        </section>
-        <section class="sector2">
+        </div>
+        <div class="sector2">
             <div class="cajaOutput">
-                <textarea id="output" class="output" readonly></textarea>
+                <textarea id="output" class="output" readonly maxlength="200"></textarea>
             </div>
             <div class="outputPackage">
                 <div class="cajaNoText">
@@ -44,12 +44,12 @@
             <div class="sectorBtn">
                 <input type="button" id="btnCopiar" class="btn" value="Copiar">
             </div>
-        </section>
+        </div>
     </main>
     <footer>
         <ul>
             <li><p class="creditos">Coded by Omar Suazo and guided by Oracle + Alura Latam! ONE G6 2024</p></li>
-            <li><p class="creditos">|</p></li>
+            <li><p class="separador">│</p></li>
             <li><a class="links" href="https://www.linkedin.com/in/osuazo/" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
             <li><a class="links" href="https://github.com/omarsuazo" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>
